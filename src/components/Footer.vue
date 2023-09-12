@@ -4,7 +4,6 @@
       <div class="row justify-content-center text-center wow fadeInUp">
         <div class="col-lg-8">
           <div class="text-center mb-3">
-            <img src="../assets/favicon-light.png" alt="" height="80" />
           </div>
           <h3 class="mb-3 text-white">B2pip</h3>
           <p class="caption">
