@@ -43,7 +43,7 @@
               faster processing time for payments and highly Secure compared to other payment
               methods..
             </p>
-            <a href="#" class="btn btn-outline-primary rounded-pill">How it works</a>
+            <a href="https://b2pip.com/" class="btn btn-outline-primary rounded-pill">Go to our site</a>
           </div>
           <div class="col-lg-5 py-3">
             <div class="img-place mobile-preview shadow wow zoomIn">

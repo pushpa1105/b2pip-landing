@@ -9,13 +9,13 @@ const scrollToSection = (sectionId) => {
 <template>
   <div class="main-page">
     <div class="main-header">
-      <div class="announcement">
-        <img src="../assets/img/announcement.png" alt="announcement-img" class="announcement-img" />
-        <h2>5</h2>
-        <div class="announcement-list text-white">Get your customer today with us!!!</div>
-      </div>
       <div class="logo">
         <img src="../assets/img/logo.svg" alt="logo" />
+      </div>
+      <div class="announcement">
+        <div class="announcement-list text-white">Get your customer today with us!!!</div>
+        <h2>5</h2>
+        <img src="../assets/img/announcement_art.png" alt="announcement-img" class="announcement-img" />
       </div>
     </div>
 
@@ -23,17 +23,18 @@ const scrollToSection = (sectionId) => {
     <div class="first">
       <div class="topics">
         <ol class="gradient-list">
+          <li @click="scrollToSection('copy-trading')">Copy Trading - Trading becomes investment.</li>
+          <li @click="scrollToSection('leverage')">
+            No mark-up spread Trade with Trust Upto 1:500 leverage
+          </li>
+          <li @click="scrollToSection('trading-account')">What is your choice of trading account?</li>
           <li @click="scrollToSection('section-one')">Do you trade for passive income?</li>
           <li @click="scrollToSection('section-two')">
             Do you have any idea how you'll pay for your trade?
           </li>
-          <li @click="scrollToSection('section-three')">What is your choice of trading account?</li>
-          <li @click="scrollToSection('section-four')">
-            No mark-up spread Trade with Trust Upto 1:500 leverage
-          </li>
-          <li @click="scrollToSection('section-five')">
+          <!-- <li @click="scrollToSection('section-five')">
             Is your trading platform as innovative as your trading ideas?
-          </li>
+          </li> -->
         </ol>
       </div>
       <div class="trade-img">

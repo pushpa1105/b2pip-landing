@@ -1,5 +1,5 @@
 <template>
-  <div class="section-five text-start pb-4" id="section-three">
+  <div class="section-five text-start pb-4" id="trading-account">
     <div style="max-width: 1500px">
       <h1 class="section-five-heading">What is your choice of trading account?</h1>
       <div class="row section-five-card">

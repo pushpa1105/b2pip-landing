@@ -4,7 +4,7 @@ import Footer from './components/Footer.vue'
 import SignUp from './components/SignUp.vue'
 import SectionThree from './components/SectionThree.vue'
 import CopyTrading from './components/CopyTrading.vue'
-import SectionFive from './components/SectionFive.vue'
+import SectionSix from './components/SectionSix.vue'
 import MainPage from './components/MainPage.vue'
 </script>
 
@@ -13,13 +13,13 @@ import MainPage from './components/MainPage.vue'
 
   <MainPage />
 
-  <SectionOne />
-
-  <SectionFive />
-
   <CopyTrading />
-
   <SectionThree />
+  <SectionOne />
+  <SectionSix />
+
+
+
 
   <Footer />
 </template>
@@ -218,25 +218,27 @@ h1 {
   font-size: 5vw;
   margin: 0;
   position: relative;
-  top: 1vh;
-  left: -2.5%;
-  color: #c9f73a;
+  /* top: 1vh; */
+  right: -4.5%;
+  color: #f75e0a;
   height: fit-content;
 }
 
 .announcement-img {
-  width: 10em;
-  transform: rotate(35deg);
+  width: 8em;
+  // transform: rotateY(180deg);
   object-fit: contain;
 }
 
 .announcement-list {
   padding: 10px;
-  border: 1px solid #c9f73a;
+  border: 1px solid #f75e0a;
   height: max-content;
   margin: auto;
   border-radius: 30px;
-  box-shadow: 0 0 10px #c9f73a;
+  box-shadow: 0 0 10px #f75e0a;
+  background: black;
+  color: #c9f73a !important;
 }
 
 .logo {
@@ -271,9 +273,12 @@ h1 {
     margin: 0;
   }
   .announcement h2 {
-    font-size: 15vw;
-    top: 2.5vh;
-    left: -9vw;
+    // font-size: 15vw;
+    // top: 2.5vh;
+    // left: -9vw;
+    font-size: 56px;
+    top: 1.5vh;
+    right: -8%;
   }
 }
 @media screen and (min-width: 2000px) {
@@ -301,4 +306,11 @@ h1 {
     margin-right: 0;
   }
 }
+
+// @media screen and (max-width: 640px) {
+//   .announcement {
+//     position: relative;
+//     left: 6%;
+//   }
+// }
 </style>
