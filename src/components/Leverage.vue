@@ -1,6 +1,6 @@
 
 <script setup>
-import SectionFive from './SectionFive.vue';
+import TradingAccount from './TradingAccount.vue';
 
 </script>
 <template>
@@ -38,7 +38,7 @@ import SectionFive from './SectionFive.vue';
         </div>
       </div>
     </div>
-  <SectionFive/>
+  <TradingAccount/>
   </div>
 </template>
 

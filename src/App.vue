@@ -1,10 +1,10 @@
 <script setup>
-import SectionOne from './components/SectionOne.vue'
+import AdditionalSection from './components/AdditionalSection.vue'
 import Footer from './components/Footer.vue'
 import SignUp from './components/SignUp.vue'
-import SectionThree from './components/SectionThree.vue'
+import Leverage from './components/Leverage.vue'
 import CopyTrading from './components/CopyTrading.vue'
-import SectionSix from './components/SectionSix.vue'
+import InnovativeSection from './components/InnovativeSection.vue'
 import MainPage from './components/MainPage.vue'
 </script>
 
@@ -14,9 +14,9 @@ import MainPage from './components/MainPage.vue'
   <MainPage />
 
   <CopyTrading />
-  <SectionThree />
-  <SectionOne />
-  <SectionSix />
+  <Leverage />
+  <AdditionalSection />
+  <InnovativeSection />
 
 
 
@@ -81,10 +81,6 @@ main {
   margin-top: -5vh;
   width: 17vw;
 }
-
-/* .trade-img img { */
-/* width: 100%; */
-/* } */
 
 ol.gradient-list {
   counter-reset: gradient-counter;
@@ -226,7 +222,6 @@ h1 {
 
 .announcement-img {
   width: 8em;
-  // transform: rotateY(180deg);
   object-fit: contain;
 }
 
@@ -273,9 +268,6 @@ h1 {
     margin: 0;
   }
   .announcement h2 {
-    // font-size: 15vw;
-    // top: 2.5vh;
-    // left: -9vw;
     font-size: 56px;
     top: 1.5vh;
     right: -8%;
@@ -306,11 +298,4 @@ h1 {
     margin-right: 0;
   }
 }
-
-// @media screen and (max-width: 640px) {
-//   .announcement {
-//     position: relative;
-//     left: 6%;
-//   }
-// }
 </style>

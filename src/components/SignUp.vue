@@ -74,7 +74,6 @@ const submitForm = () => {
   align-items: center;
   display: flex;
   margin: auto 0 2px 10px;
-  /* height: fit-content; */
   width: 150px;
   justify-content: center;
   height: 50px;
@@ -83,7 +82,6 @@ const submitForm = () => {
 .button {
   min-width: 300px;
   min-height: 60px;
-  /* font-family: 'Nunito', sans-serif; */
   font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 1.3px;

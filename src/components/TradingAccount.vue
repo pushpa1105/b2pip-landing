@@ -63,14 +63,12 @@ onMounted(() => {
 }
 
 .card-second .inner-text {
-  /* position: absolute; */
   left: 37%;
   font-size: 25px;
   font-weight: 600;
   top: 39%;
 }
 .card-first .inner-text {
-  /* position: absolute; */
   left: 47%;
   font-size: 25px;
   font-weight: 600;
