@@ -13,8 +13,8 @@ const scrollToSection = (sectionId) => {
         <img src="../assets/img/logo.svg" alt="logo" />
       </div>
       <div class="announcement">
-        <div class="announcement-list text-white">Get your customer today with us!!!</div>
-        <h2>5</h2>
+        <div class="announcement-list text-white">Why to open trading account with us?</div>
+        <!-- <h2>5</h2> -->
         <img src="../assets/img/announcement_art.png" alt="announcement-img" class="announcement-img" />
       </div>
     </div>

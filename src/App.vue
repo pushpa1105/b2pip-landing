@@ -221,7 +221,7 @@ h1 {
 }
 
 .announcement-img {
-  width: 8em;
+  width: 7em;
   object-fit: contain;
 }
 
